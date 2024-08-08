@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        body {
+            background-color: #111;
+            color: #fff;
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #222;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #444;
+            border-radius: 5px;
+            background-color: #333;
+            color: #fff;
+        }
+        textarea {
+            resize: vertical;
+            height: 150px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        .contact-info ul {
+            list-style: none;
+            padding: 0;
+        }
+        .contact-info li {
+            margin-bottom: 5px;
+        }
+        .contact-info a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .icon {
+            display: inline-block;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <ul>
+                <li><span class="icon">&#128231;</span><a href="mailto:Ruturandive05@Gmail.Com">Ruturandive05@Gmail.Com</a></li>
+                <li><span class="icon">&#128241;</span>+91-9209120146</li>
+                <li><span class="icon">&#128205;</span>Krishnai Sadan Near Ram Mandir, Vadgaon(J.S.), Satara</li>
+            </ul>
+        </div>
+        <form>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div>
+                <label for="project">Project:</label>
+                <input type="text" id="project" name="project">
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
