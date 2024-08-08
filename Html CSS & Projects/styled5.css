@@ -1,0 +1,85 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: antiquewhite;
+}
+h3{
+    color:blueviolet;
+}
+h1{
+    color:red;
+}
+#login{
+    background-color: #579957;
+}
+#signup{
+    background-color: aqua;;
+}
+.up{
+    background-color:orange;
+    color: black;
+}
+p a{
+    background-color: cadetblue;
+}
+.up + button{
+    background-color: chartreuse;
+}
+
+div > input{
+    background-color: rgb(255, 255, 213);
+    color: black;
+}
+
+input[type="password"]{
+    color: green;
+}
+
+input[type="username"]{
+    color: rgb(56, 88, 56);
+}
+button:hover{
+    background-color: black;
+    color: azure;
+}
+
+button:active{
+   background-color: yellow;
+}
+p{
+    font-weight: bold;
+}
+p:active{
+    font-weight: bold;
+    color: green;
+}
+
+input[type="radio"]:checked  + label{
+    color: red;
+    font-weight: bold;
+}
+
+div:nth-of-type(4) {
+    background-color: aliceblue;
+}
+h1::first-letter{
+    color: green;
+}
+p::first-line{
+    color: purple;
+}
+
+p::selection{
+    background-color: lime;
+}
+h3::Selection{
+    background-color: lime;
+}
+
+.yyyy{
+    height: 100px;
+    width: 500px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: green;
+    border-radius: 10%;
+}

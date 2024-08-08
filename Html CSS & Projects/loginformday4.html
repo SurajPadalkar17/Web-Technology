@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form d4</title>
+</head>
+<body>
+    <form action="/action.php">
+        <input><hr>
+        <p> input with type text</p>
+        <input type="text"><hr>
+        <p>input with type password </p>
+        <input type="password"><hr>
+        <p>input with type number</p>
+        <input type="number"><hr>
+        <p>input with type time </p>
+        <input type="time"><hr>
+         <p>input with type color </p>
+        <input type="color"><hr>
+
+        <!-- Placeholder used for the showing the random text -->
+
+        username
+        <input type="text" placeholder="Enter username">
+
+        password
+        <input type="text" placeholder="Enter username"><br><hr>
+
+         <!-- Label = when we click on letter it automatically take to box for input-->
+    
+         <label> 
+            username
+            <input type="text" placeholder="Enter username">
+        </label>
+        <label> 
+            password
+            <input type="text" placeholder="Enter username">
+        </label><br><hr>
+
+
+        <!-- Label classical approach using FOR and id-->
+         <div> 
+            <label for="password">password :</label>
+            <input type="password" placeholder="Enter upassword"id="password">
+        </div>  <br><hr>
+
+
+
+        <!--buttons-->
+        <label> 
+            username
+            <input type="text" placeholder="Enter username">
+        </label>
+        <br>
+        <label> 
+            password
+            <input type="text" placeholder="Enter username">
+        </label><br>
+        <button>Submit</button><br><hr>
+        <!--After click on submit button the -it will go to the "/action.php" of page which is delcared above-->
+
+
+
+    <!-- Type attribute of button -->
+
+    
+    <label> 
+        username
+        <input type="text" placeholder="Enter username">
+    </label>
+    <label> 
+        password
+        <input type="password" placeholder="Enter username">
+    </label>
+   <div>
+     <button type="submit">Submit</button>
+     <button type="Reset">Reset</button>
+   </div><br><hr>
+
+
+   <!-- Button using input-->
+
+        <label> 
+             username
+             <input type="text" placeholder="Enter username">
+         </label>
+        <label> 
+           password
+           <input type="password" placeholder="Enter username">
+        </label><br>
+        <label>
+            <input type="submit" value="click me for submit">
+        </label><br><hr>
+
+
+
+  <!-- Name attribute -  used for give the name for redirect the link-->
+        <label for="password">password :</label>
+        <input type="password" placeholder="Enter upassword"id="password" name="passsss">
+        <button type="submit" name="fdfgdfgdfg">Submit</button>
+    </form><br><hr><hr>
+
+    <form action="https://www.youtube.com/results?">
+        <input type="text" placeholder="search in youtube" name="search_query"><br>
+        <button type="submit">submit</button>
+    </form><br><hr>
+
+
+
+    <form action="/server">
+    <input type="checkbox" name="age" id = "age">
+    <label for="age"> I am 18<sup>+</sup></label><br>
+    <button >submit</button><hr>
+  
+    <!-- Radio button -->
+    <div>
+        <input type="radio" name="fruit" id="apple">
+        <label for="apple">apple</label><br>
+       
+    </div>
+    <button >submit</button><br><hr>
+
+
+    <!--Dropdown -->
+    <div>
+         choose you preferences
+         <select name="profession" id="profession">
+            <option>select option</option>
+            <option value="stu">student</option>
+            <option value="dev">developer</option>
+         </select>
+         <button>submit</button>
+    </div><br><hr>
+
+    <!-- Volume Level-->
+    <div>
+        <label for="vol"> Select volume level</label>
+        <input type="range" id="vol" min="0" max="100" step="10"value="70"name="vol">
+        <button>submit</button>
+    </div><br><hr>
+
+    <!-- Text area-->
+    <label for="feedback">Please give feedback</label>
+    <textarea id="feedback" name="feedback" rows="5"cols="50" placeholder="Enter your feedback here"></textarea>
+    <button>submit</button>
+    </form><br><hr>
+        <hr>
+
+    <h5>practice question no 9</h5><hr>
+
+
+<!--Practice question 9-->
+   <form action="/server">
+    <h1>Registration form</h1>
+    <input type="text" placeholder="First name" name="fname">
+    <input type="text" placeholder="Last name" name="lname"><br>
+    please select gender
+    <select name="gender" id="gender">
+        <option value="male">male</option>
+        <option value="fem">Female</option>
+    </select><br>
+   
+    <label for="agree"> Do you agree to all terms of service?</label>
+    <input type="checkbox" id="agree" name="agree">Yes,I agree<br>
+    <button>Register</button>
+     
+
+   </form>
+</body> 
+</html>

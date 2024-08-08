@@ -1,0 +1,52 @@
+/*div{
+    height: 200px;
+    width: 200px;
+    background-color: limegreen;
+    margin: 0 auto;
+    margin-top: 10px;
+    transition:margin-top 2s ;
+}
+
+div:hover{
+   margin-top: 480px;
+   background-color: chocolate;
+    
+}  */
+
+section{
+    margin-top: 100px;
+   
+}
+
+div{
+    width :200px;
+    height :50px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 10px auto;
+    box-shadow: 2px 2px 8px black ;
+}
+div:nth-of-type(2n){
+    background-color: #f7db6a;
+}
+div:nth-of-type(3n){
+    background-color: #ebb02d ;
+}
+
+#one{
+    transform:rotate(90deg);
+}
+ #four:hover{
+    transform:rotate(90deg);
+}
+#two{
+    transform: scale(2,0.5)
+}
+
+#three{
+    transform: translateX(100px);
+}
+#five{
+    transform: skew(30deg);
+} 
